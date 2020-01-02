@@ -1,0 +1,30 @@
+{
+  "name": "node-express-with-webpack",
+  "version": "1.0.0",
+  "description": "node express server with es-Next AND Webpack and babel-loader",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "webpack --watch",
+    "build": "webpack -p --mode=production"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon-webpack-plugin": "^4.2.2",
+    "prettier": "^1.19.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
